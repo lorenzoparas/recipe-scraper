@@ -1,1 +1,1 @@
-curl $1 > html.txt
+curl $1 > data/html.txt

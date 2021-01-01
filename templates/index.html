@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Recipe Scraper</title>
+    <meta name="description" content="Acquire recipes in raw data!">
+    <meta name="author" content="5ives">
+
+<style type="text/css">
+
+form {
+    margin: auto;
+    text-align: center;
+    background-color: #DBF9FC;
+    margin: 10%;
+    width: 40%;
+    padding: 3%;
+}
+
+.form-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.form-input {
+    width: 55%;
+    margin-bottom: 5%;
+    height: 0.8cm;
+    text-align: center;
+    font-size: 0.3cm;
+    content: "Paste Link";
+    color: grey;
+}
+
+.form-submit {
+    color: black;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 1.2cm;
+    width: 20%;
+}
+
+a {
+    color: black;
+}
+
+</style>
+
+</head>
+
+<body>
+    <form action="{{ url_for('result') }}" method="post">
+        <div class="form-title">Scrape raw data of a recipe from
+            <br/>
+            <a href="https://allrecipes.com/" target="_blank">
+                allrecipes.com:
+            </a>
+        </div> 
+        <input class="form-input" type="text" name="searchbox" placeholder="Paste Recipe Link Here"><br/>
+        <input class="form-submit" type="submit" value="Search">
+    </form> 
+</body>
+</html>
