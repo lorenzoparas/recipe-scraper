@@ -8,7 +8,7 @@ recipeScraper web-scrapes and converts online recipes from allrecipes.com into a
 
 The only python library which is required for this project is Flask.
 
-Please install Flask through the command below:
+Install Flask through the command below:
 
 ```bash
 pip install flask
@@ -24,8 +24,8 @@ python3 app.py
 
 Afterwards, access the website on your localhost and insert a recipe link from allrecipes.com into the textbox and click submit.
 
-![landing-page](https://imgur.com/a/JNYhTIs)
+![landing-page](https://i.imgur.com/nCd3MG1.png)
 
 The recipe's title, ingredients and instructions should appear in a simple format.
 
-![result](https://imgur.com/a/MkHPGEx)
+![result](https://i.imgur.com/Htyubxf.png)
