@@ -22,7 +22,7 @@ To use this scraper, you will need to first run the scraper's Flask server by ru
 python3 app.py
 ```
 
-Afterwards, access the website on your localhost (i.e http://127.0.0.1:5000/) and insert a recipe link from allrecipes.com into the textbox and click submit.
+Afterwards, access the website on your localhost (i.e http://127.0.0.1:5000/) and insert a recipe link from allrecipes.com into the textbox and click search.
 
 ![landing-page](https://i.imgur.com/nCd3MG1.png)
 
