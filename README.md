@@ -1,8 +1,8 @@
-# recipeScraper
+# recipe-scraper
 
 ## Description
 
-recipeScraper web-scrapes and converts online recipes from allrecipes.com into a simplified, cleaner format.
+recipe-scraper web-scrapes and converts online recipes from allrecipes.com into a simplified, cleaner format.
 
 ## Installation
 
